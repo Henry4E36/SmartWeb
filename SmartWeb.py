@@ -58,7 +58,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if len(sys.argv) != 3:
         print(
-            "[-]  参数错误！\neg1:>>>python3 Kyaninformation.py -u http://127.0.0.1\neg2:>>>python3 Kyaninformation.py -f ip.txt")
+            "[-]  参数错误！\neg1:>>>python3 SmartWeb.py -u http://127.0.0.1\neg2:>>>python3 SmartWeb.py -f ip.txt")
     elif args.url:
         information(args).target_url()
     elif args.file:
