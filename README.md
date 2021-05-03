@@ -15,8 +15,8 @@ optional arguments:
   
   #Use
   
-python3 Kyaninformation.py -u http://127.0.0.1
+python3 SmartWeb.py -u http://127.0.0.1
 
-python3 Kyaninformation.py -f ip.txt
+python3 SmartWeb.py -f ip.txt
 
 
